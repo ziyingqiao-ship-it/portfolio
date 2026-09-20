@@ -1,0 +1,1 @@
+const modal=document.querySelector('#image-view');document.querySelectorAll('[data-image]').forEach(button=>button.addEventListener('click',()=>{const img=modal.querySelector('img');img.src=button.dataset.image;img.alt=button.querySelector('img').alt;modal.showModal();}));modal.addEventListener('click',event=>{if(event.target===modal)modal.close();});

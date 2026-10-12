@@ -167,3 +167,5 @@
 .clink-story .md-panel{height:100%;align-self:stretch;display:flex;flex-direction:column}
 .clink-story .md-panel-heading{flex:none}
 .clink-story .md-panel pre{flex:1}
+
+.clink-story .website-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.clink-story .website-label{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0}.clink-story .website-label h3{font-size:20px;margin:0}.clink-story .website-label span{font-size:12px;color:#767571}.clink-story .website-preview{height:520px;border:1px solid #e9e8e5;border-radius:12px;overflow:hidden}.clink-story .website-preview img{width:100%;height:auto;max-height:none;object-fit:initial}.clink-story .sections{flex-wrap:wrap}@media(max-width:800px){.clink-story .website-grid{grid-template-columns:1fr;gap:24px}.clink-story .website-preview{height:460px}}
